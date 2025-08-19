@@ -10,7 +10,7 @@ Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScSIJy9JsKh
 If you are on the waitlist, please fill out [this interest form](https://docs.google.com/forms/d/e/1FAIpQLScks25ekpabALpCronYx9ZV_thu6Besk69mRnHcbsuLrh6psA/viewform?usp=sharing&ouid=113616522367506075718).
 
 ## Description
-Feedback---when information about system output is used in system input---plays an important role in machine learning.
+Feedback&mdash;when information about system output is used in system input&mdash;plays an important role in machine learning.
 For example, models are trained with iterative algorithms which reduce errors on observed data.
 Autoregressive models use feedback to capture patterns in sequential data. 
 And feedback between machine learning models and the environment in which they are deployed leads to a host of challenges, from distribution shift to bias to polarization. 
@@ -20,7 +20,7 @@ This graduate level course will introduce theoretical foundations for studying s
 Unit 1: Prediction (Aug-Oct)\
 *Topics: Supervised Learning, Online Learning, Dynamical Systems, State Estimation. Sequence and timeseries models.*\
 Unit 2: Action (Oct-Dec)\
-*Topics: Multi-Armed Bandits, Optimal Control & Reinforcement Learning, Model Predictive Control*\
+*Topics: Multi-Armed Bandits, Optimal Control & Reinforcement Learning, Model Predictive Control*
 
 The detailed calendar (TBA) will be updated throughout the semester. List of references and papers will be posted in September.
 
