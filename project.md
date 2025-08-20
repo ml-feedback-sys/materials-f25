@@ -1,10 +1,10 @@
 # Final Project
-*Details for CS 6784 Fall 2023*
+*Details for CS 6784 Fall 2025*
 
 Key dates:
-- October 6, 2023: Project proposal due
-- November 10, 2023: Midterm update due
-- December 4, 2023: Final report due *submissions accepted without penality until December 14*
+- October 10, 2025: Project proposal due
+- November 7, 2025: Midterm update due
+- End of semester: Final report due (date TBA)
 
 ## Deliverables
 All deliverables should use the PMLR format, created using the [LaTeX template](https://www.overleaf.com/read/fkdrmrfwgcfj). 
