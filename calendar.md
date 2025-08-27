@@ -3,7 +3,7 @@
 
 | Date | # | Type | Topic & Materials |
 | --- | --- | --- | --- |
-| 08/26 | 1 | Lecture | Overview & Supervised Learning |
+| 08/26 | 1 | Lecture | Overview & Supervised Learning ([slides](https://slides.com/sarahdean-2/01-overview-ml-in-feedback-sys-f25)) |
 | 08/28 | 2 |  |  |
 | 09/02 | 3 |  |  |
 | 09/04 | 4 |  |  |
