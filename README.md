@@ -4,7 +4,7 @@
 Meeting Tu/Thu 10:10-11:25am in 366 Hollister Hall\
 Professor [Sarah Dean](https://sdean.website/), office hours TBA\
 TA [Haruka Kiyohara](https://sites.google.com/view/harukakiyohara), office hours TBA\
-Please use Ed Discussions (link TBA) for any questions.
+Please use [Ed Discussions](https://edstem.org/us/courses/85093/discussion) for any questions.
 
 Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScSIJy9JsKhzBEBKLcxumFdUrlA540Uj1ETl4lE4hWHz_fEIQ/viewform?usp=dialog) to join the class's [collaborative GitHub repository](https://github.com/ml-feedback-sys/collaborative-f25).\
 If you are on the waitlist, please fill out [this interest form](https://docs.google.com/forms/d/e/1FAIpQLScks25ekpabALpCronYx9ZV_thu6Besk69mRnHcbsuLrh6psA/viewform?usp=sharing&ouid=113616522367506075718).
