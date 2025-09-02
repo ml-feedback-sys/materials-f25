@@ -2,8 +2,8 @@
 *Cornell CS 6784 Fall 2025* 
 
 Meeting Tu/Thu 10:10-11:25am in 366 Hollister Hall\
-Professor [Sarah Dean](https://sdean.website/), office hours TBA\
-TA [Haruka Kiyohara](https://sites.google.com/view/harukakiyohara), office hours TBA\
+Professor [Sarah Dean](https://sdean.website/), office hours after lecture by appointment\
+TA [Haruka Kiyohara](https://sites.google.com/view/harukakiyohara), office hours by appointment (see Ed)\
 Please use [Ed Discussions](https://edstem.org/us/courses/85093/discussion) for any questions.
 
 Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLScSIJy9JsKhzBEBKLcxumFdUrlA540Uj1ETl4lE4hWHz_fEIQ/viewform?usp=dialog) to join the class's [collaborative GitHub repository](https://github.com/ml-feedback-sys/collaborative-f25).\
@@ -17,12 +17,12 @@ And feedback between machine learning models and the environment in which they a
 This graduate level course will introduce theoretical foundations for studying such phenomena. We will cover the frameworks of online/adaptive learning,  control theory, and reinforcement learning. For each, we will discuss algorithms for ensuring properties like stability, robustness, safety, and fairness. We will also discuss the social and ethical concerns which motivate these algorithms and properties. Student presentations and a research project are major parts of the course.
 
 ### Topics and Schedule
-Unit 1: Prediction (Aug-Oct)\
+Unit 1: Prediction (Aug-Sept)\
 *Topics: Supervised Learning, Online Learning, Dynamical Systems, State Estimation. Sequence and timeseries models.*\
-Unit 2: Action (Oct-Dec)\
+Unit 2: Action (Sept-Oct)\
 *Topics: Multi-Armed Bandits, Optimal Control & Reinforcement Learning, Model Predictive Control*
 
-The detailed calendar (TBA) will be updated throughout the semester. List of references and papers will be posted in September.
+The detailed [calendar](calendar.md) will be updated throughout the semester. List of references and papers will be posted in September.
 
 ### Prerequisites
 
