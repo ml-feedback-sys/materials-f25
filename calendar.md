@@ -4,7 +4,7 @@
 | Date | # | Type | Topic & Materials |
 | --- | --- | --- | --- |
 | 08/26 | 1 | Lecture | Overview & Supervised Learning ([slides](https://slides.com/sarahdean-2/01-overview-ml-in-feedback-sys-f25)) |
-| 08/28 | 2 | Lecture | Linear Least Squares ([slides](https://slides.com/sarahdean-2/02-supervised-learning-least-squares-ml-in-feedback-sys-f25), [recording](https://cornell.zoom.us/rec/share/iiOFMszVAlNzC2-53yw98QMunhJQ2pfhB2Sio1S-hZkreN5E_hHMHoWq1fdjmlKS.UK76sIg30L6t4va7?startTime=1756389975000) |
+| 08/28 | 2 | Lecture | Linear Least Squares ([slides](https://slides.com/sarahdean-2/02-supervised-learning-least-squares-ml-in-feedback-sys-f25), [recording](https://cornell.zoom.us/rec/share/iiOFMszVAlNzC2-53yw98QMunhJQ2pfhB2Sio1S-hZkreN5E_hHMHoWq1fdjmlKS.UK76sIg30L6t4va7?startTime=1756389975000)) |
 | 09/02 | 3 | Lecture | Sequential Data: Markov Models ([slides](https://slides.com/sarahdean-2/03-sequential-data-markov-models-f25)) |
 | 09/04 | 4 |  |  |
 | 09/09 | 5 |  |  | 
