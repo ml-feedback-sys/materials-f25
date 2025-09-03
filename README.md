@@ -32,7 +32,7 @@ Knowledge of ML at the level of CS4780 is recommended. Perhaps more important is
 Students will complete weekly assignments, give a presentation, and work on a project during the semester. Depending on enrollment, some of this work may be done in pairs or groups.
 
 ### Weekly Assignments 
-Assignments will be posted each week on Wednesday and are due the following Wednesday. We will use GitHub collaboration tools to manage and collect your work.
+Assignments will be posted each week on Thursday and are due the following Thursday. We will use GitHub collaboration tools to manage and collect your work.
 
 ### Presentations
 Throughout the semester, students will present selected papers or textbook excerpts (list to come) and lead a discussion. Students are required to schedule a meeting with the TA to go over their presentation at least two days before they are scheduled to present. [Presentation Details](presentation.md).
