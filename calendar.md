@@ -6,8 +6,8 @@
 | 08/26 | 1 | Lecture | Overview & Supervised Learning ([slides](https://slides.com/sarahdean-2/01-overview-ml-in-feedback-sys-f25)) |
 | 08/28 | 2 | Lecture | Linear Least Squares ([slides](https://slides.com/sarahdean-2/02-supervised-learning-least-squares-ml-in-feedback-sys-f25), [recording](https://vod.video.cornell.edu/media/Lecture+2%3A+Least+Squares+%28ML+In+Feedback+Sys+F25%29/1_4hv15ez1)) |
 | 09/02 | 3 | Lecture | Sequential Data: Markov Models ([slides](https://slides.com/sarahdean-2/03-sequential-data-markov-models-f25), [recording](https://vod.video.cornell.edu/media/Lecture+3%3A+Markov+Models+%28ML+In+Feedback+Sys+F25%29/1_sotmjfhf)) |
-| 09/04 | 4 | Lecture | Linear Dynamical Systems ([slides](https://slides.com/sarahdean-2/04-linear-dynamics-ml-feedback-sys-f25)) |
-| 09/09 | 5 |  |  | 
+| 09/04 | 4 | Lecture | Linear Dynamical Systems ([slides](https://slides.com/sarahdean-2/04-linear-dynamics-ml-feedback-sys-f25, [recording](https://vod.video.cornell.edu/media/Lecture+3%3A+Linear+Dynamics+Models+%28ML+in+Feedback+Sys+F25%29/1_kgnawf0m))) |
+| 09/09 | 5 | Lecture | Nonlinear Dynamics and Linearization ([slides](https://slides.com/sarahdean-2/05-nonlin-dynamics-ml-feedback-sys-f25)) | 
 | 09/11 | 6 |  |  |
 | 09/16 | 7 |  |  |
 | 09/18 | 8 |  |  |
