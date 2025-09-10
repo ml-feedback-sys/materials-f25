@@ -8,7 +8,7 @@
 | 09/02 | 3 | Lecture | Sequential Data: Markov Models ([slides](https://slides.com/sarahdean-2/03-sequential-data-markov-models-f25), [recording](https://vod.video.cornell.edu/media/Lecture+3%3A+Markov+Models+%28ML+In+Feedback+Sys+F25%29/1_sotmjfhf)) |
 | 09/04 | 4 | Lecture | Linear Dynamical Systems ([slides](https://slides.com/sarahdean-2/04-linear-dynamics-ml-feedback-sys-f25), [recording](https://vod.video.cornell.edu/media/Lecture+3%3A+Linear+Dynamics+Models+%28ML+in+Feedback+Sys+F25%29/1_kgnawf0m)) |
 | 09/09 | 5 | Lecture | Nonlinear Dynamics and Linearization ([slides](https://slides.com/sarahdean-2/05-nonlin-dynamics-ml-feedback-sys-f25), [recording](https://vod.video.cornell.edu/media/+Lecture+4%3A+Linearizing+Nonlinear+Dynamics+%28ML+in+Feedback+Sys+F25%29+/1_4key265f)) | 
-| 09/11 | 6 | Lecture | Lifting Nonlinear Dynamics |
+| 09/11 | 6 | Lecture | Lifting Nonlinear Dynamics ([slides](https://slides.com/sarahdean-2/06-nonlin-dynamics-koopman-ml-feedback-sys-f25/)) |
 | 09/16 | 7 |  |  |
 | 09/18 | 8 |  |  |
 | 09/23 | 9 |  |  |
