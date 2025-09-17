@@ -9,8 +9,8 @@
 | 09/04 | 4 | Lecture | Linear Dynamical Systems ([slides](https://slides.com/sarahdean-2/04-linear-dynamics-ml-feedback-sys-f25), [recording](https://vod.video.cornell.edu/media/Lecture+3%3A+Linear+Dynamics+Models+%28ML+in+Feedback+Sys+F25%29/1_kgnawf0m)) |
 | 09/09 | 5 | Lecture | Nonlinear Dynamics and Linearization ([slides](https://slides.com/sarahdean-2/05-nonlin-dynamics-ml-feedback-sys-f25), [recording](https://vod.video.cornell.edu/media/+Lecture+4%3A+Linearizing+Nonlinear+Dynamics+%28ML+in+Feedback+Sys+F25%29+/1_4key265f)) | 
 | 09/11 | 6 | Lecture | Lifting Nonlinear Dynamics ([slides](https://slides.com/sarahdean-2/06-nonlin-dynamics-koopman-ml-feedback-sys-f25/), [recording](https://vod.video.cornell.edu/media/Lecture+6%3A+Lifting+Nonlinear+Dynamics+%28ML+in+Feedback+Sys+F25%29/1_1mpfxjzv)) |
-| 09/16 | 7 | Lecture | Linear Autoregressive Models ([slides](https://slides.com/sarahdean-2/07-linear-autoregressive-ml-in-feedback-sys-f25)) |
-| 09/18 | 8 |  |  |
+| 09/16 | 7 | Lecture | Linear Autoregressive Models ([slides](https://slides.com/sarahdean-2/07-linear-autoregressive-ml-in-feedback-sys-f25), [recording part 1](https://vod.video.cornell.edu/media/+Lecture+7+part+1%3A+Linear+Autoregressive+Models+%28ML+in+Feedback+Sys+F25%29+/1_n3qb43zt), [part 2](https://vod.video.cornell.edu/media/%20Lecture%207%20part%202%3A%20Linear%20Autoregressive%20Models%20(ML%20in%20Feedback%20Sys%20F25)%20/1_fx1m5c22)) |
+| 09/18 | 8 | Lecture | Stochastic Dynamics and Filtering ([slides](https://slides.com/sarahdean-2/08-state-estimation-ml-in-feedback-sys-f25)) |
 | 09/23 | 9 |  |  |
 | 09/25 | 10 |  |  |
 | 09/30 | 11 |  |  |
