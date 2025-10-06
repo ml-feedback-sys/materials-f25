@@ -15,21 +15,21 @@
 | 09/25 | 10 | Lecture | Generalization in Least Squares ([slides](https://slides.com/sarahdean-2/10-generalization-ml-in-feedback-sys-f25), [recording](https://vod.video.cornell.edu/media/Lecture+10%3A+Generalization+%28ML+in+Feedback+Sys+F25%29/1_gbqrzyos)) |
 | 09/30 | 11 | Lecture | Contextual Bandits ([slides](https://slides.com/sarahdean-2/11-bandits-ml-in-feedback-sys-f25)) |
 | 10/02 | 12 | Lecture | Model Predictive Linear Quadratic Control ([slides](https://slides.com/sarahdean-2/11-bandits-ml-in-feedback-sys-f25-7c4a66)) |
-| 10/07 | 13 |  |  |
-| 10/09 | 14 |  |  |
-| 10/14 |  |  |  |
-| 10/16 | 15 |  |  |
-| 10/21 | 16 |  |  |
-| 10/23 | 17 |  |  |
-| 10/28 | 18 |  |  |
-| 10/30 | 19 |  |  |
-| 11/04 | 20 |  |  |
-| 11/06 | 21 |  |  |
-| 11/11 | 22 |  |  |
-| 11/13 | 23 |  |  |
-| 11/18 | 24 |  |  |
-| 11/20 | 25 |  |  |
-| 11/25 | 26 |  |  |
-| 11/27 |  |  |  |
-| 12/02 | 27 |  |  |
-| 12/04 | 28 |  |  |
+| 10/07 | 13 | Lecture |  |
+| 10/09 | 14 | Lecture |  |
+| 10/14 |  |  | No class: Fall break |
+| 10/16 | 15 | Lecture |  |
+| 10/21 | 16 | Lecture |  |
+| 10/23 | 17 | Guest Lecture |  |
+| 10/28 | 18 | Paper Presentations |  |
+| 10/30 | 19 | Paper Presentations |  |
+| 11/04 | 20 | Paper Presentations |  |
+| 11/06 | 21 | Paper Presentations |  |
+| 11/11 | 22 | Paper Presentations |  |
+| 11/13 | 23 | Paper Presentations |  |
+| 11/18 | 24 | Paper Presentations |  |
+| 11/20 | 25 | Paper Presentations |  |
+| 11/25 | 26 | Paper Presentations |  |
+| 11/27 |  |  | No class: Thanksgiving |
+| 12/02 | 27 | Paper Presentations |  |
+| 12/04 | 28 | Paper Presentations |  |
