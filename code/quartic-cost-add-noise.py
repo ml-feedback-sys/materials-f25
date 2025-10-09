@@ -1,16 +1,17 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
 def solve_cubic(s_hat, p):
     """
-    Solve: u³ + ((12ŝ + 18p)/10)u² + ((6ŝ² + 12ŝp + 12p² + 1)/10)u 
-           + ((ŝ³ + 3ŝ²p + 3ŝp² + 3p³)/10) = 0
-    Returns all three roots (real or complex)
+    Solve the optimality condition dJ/du = 0 for:
+    J(u) = (ŝ + u)⁴ + 6(ŝ + u)²(p² + u²) + 3(p² + u²)² + 2u²
+    
+    This gives the cubic equation:
+    4u³ + 6ŝu² + (3ŝ² + 6p² + 1)u + ŝ³ + 3ŝp² = 0
     """
-    a = 1
-    b = (12*s_hat + 18*p) / 10
-    c = (6*s_hat**2 + 12*s_hat*p + 12*p**2 + 1) / 10
-    d = (s_hat**3 + 3*s_hat**2*p + 3*s_hat*p**2 + 3*p**3) / 10
+    a = 4
+    b = 6 * s_hat
+    c = 3 * s_hat**2 + 6 * p**2 + 1
+    d = s_hat**3 + 3 * s_hat * p**2
     
     # Use numpy's roots function for cubic equation
     coefficients = [a, b, c, d]
@@ -20,11 +21,11 @@ def solve_cubic(s_hat, p):
 
 def objective_function(s_hat, u, p):
     """
-    Calculate: J(u) = (ŝ + u)⁴ + 6(ŝ + u)²(p + u)² + 3(p + u)⁴ + 2u²
+    Calculate: J(u) = (ŝ + u)⁴ + 6(ŝ + u)²(p² + u²) + 3(p² + u²)² + 2u²
     """
     term1 = (s_hat + u)**4
-    term2 = 6 * (s_hat + u)**2 * (p + u)**2
-    term3 = 3 * (p + u)**4
+    term2 = 6 * (s_hat + u)**2 * (p**2 + u**2)
+    term3 = 3 * (p**2 + u**2)**2
     term4 = 2 * u**2
     return term1 + term2 + term3 + term4
 
@@ -72,8 +73,7 @@ for i in range(len(p_values)):
 # Create the plot
 fig, ax = plt.subplots(figsize=(10, 8))
 im = ax.contourf(S, P, U_optimal, levels=50, cmap='viridis')
-ax.set_title('Optimal u that maximizes J(u) = (ŝ + u)⁴ + 6(ŝ + u)²(p + u)² + 3(p + u)⁴ + 2u²', 
-             fontsize=11)
+ax.set_title('Optimal u that maximizes J(u) = (ŝ + u)⁴ + 6(ŝ + u)²(p² + u²) + 3(p² + u²)² + 2u²',              fontsize=11)
 ax.set_xlabel('ŝ', fontsize=12)
 ax.set_ylabel('p', fontsize=12)
 cbar = plt.colorbar(im, ax=ax)
