@@ -16,11 +16,11 @@
 | 09/30 | 11 | Lecture | Contextual Bandits ([slides](https://slides.com/sarahdean-2/11-bandits-ml-in-feedback-sys-f25), [recording](https://vod.video.cornell.edu/media/+Lecture+11%3A+Contextual+Bandits+%28ML+In+Feedback+Sys+F25%29+/1_lzry392g)) |
 | 10/02 | 12 | Lecture | Model Predictive Linear Quadratic Control ([slides](https://slides.com/sarahdean-2/11-bandits-ml-in-feedback-sys-f25-7c4a66), [recording](https://vod.video.cornell.edu/media/+Lecture+12%3A+Model+Predictive+Linear+Quadratic+Control+%28ML+In+Feedback+Sys+F25%29+/1_0xd91d2q)) |
 | 10/07 | 13 | Lecture | Safety and Stability in Model Predictive Control ([slides](https://slides.com/sarahdean-2/13-mpc-safe-ml-in-feedback-sys-f25)) |
-| 10/09 | 14 | Lecture | Control with Partial Observation |
+| 10/09 | 14 | Lecture | Control with Partial Observation ([slides](https://slides.com/sarahdean-2/14-sep-prin-ml-in-feedback-sys-f25)) |
 | 10/14 |  |  | No class: Fall break |
 | 10/16 | 15 | Lecture | Adaptive Control |
 | 10/21 | 16 | Lecture | Policy Optimization |
-| 10/23 | 17 | Guest Lecture |  |
+| 10/23 | 17 | Guest Lecture | Off-Policy Evaluation and Learning |
 | 10/28 | 18 | Paper Presentations |  |
 | 10/30 | 19 | Paper Presentations |  |
 | 11/04 | 20 | Paper Presentations |  |
