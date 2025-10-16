@@ -3,7 +3,7 @@
 
 Key dates:
 - October 10, 2025: Project proposal due
-- November 7, 2025: Midterm update due
+- November 14, 2025: Midterm update due
 - December 16, 2025: Final report due
 
 ## Deliverables
