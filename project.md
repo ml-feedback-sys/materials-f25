@@ -4,7 +4,7 @@
 Key dates:
 - October 10, 2025: Project proposal due
 - November 7, 2025: Midterm update due
-- End of semester: Final report due (date TBA)
+- December 16, 2025: Final report due
 
 ## Deliverables
 All deliverables should use the PMLR format, created using the [LaTeX template](https://www.overleaf.com/read/fkdrmrfwgcfj). 
