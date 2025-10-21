@@ -18,8 +18,8 @@
 | 10/07 | 13 | Lecture | Safety and Stability in Model Predictive Control ([slides](https://slides.com/sarahdean-2/13-mpc-safe-ml-in-feedback-sys-f25), [recording](https://vod.video.cornell.edu/media/Lecture+13%3A+Safety+and+Stability+in+Model+Predictive+Control+%28ML+In+Feedback+Sys+F25%29/1_8ox4frmg)) |
 | 10/09 | 14 | Lecture | Control with Partial Observation ([slides](https://slides.com/sarahdean-2/14-sep-prin-ml-in-feedback-sys-f25), [recording](https://vod.video.cornell.edu/media/Lecture+14%3A+Control+with+Partial+Observation+%28ML+In+Feedback+Sys+F25%29/1_ca5c1x7x)) |
 | 10/14 |  |  | No class: Fall break |
-| 10/16 | 15 | Lecture | Adaptive Control ([slides](https://slides.com/sarahdean-2/15-adaptive-control-ml-in-feedback-sys-f25)) |
-| 10/21 | 16 | Lecture | Policy Optimization |
+| 10/16 | 15 | Lecture | Adaptive Control ([slides](https://slides.com/sarahdean-2/15-adaptive-control-ml-in-feedback-sys-f25), [recording](https://vod.video.cornell.edu/media/+Lecture+15%3A+Adaptive+Control+%28ML+In+Feedback+Sys+F25%29+/1_2isxfefm)) |
+| 10/21 | 16 | Lecture | Policy Optimization ([slides](https://slides.com/sarahdean-2/16-policy-opt-ml-in-feedback-sys-f25)) |
 | 10/23 | 17 | Guest Lecture | Off-Policy Evaluation and Learning |
 | 10/28 | 18 | Paper Presentations |  |
 | 10/30 | 19 | Paper Presentations |  |
