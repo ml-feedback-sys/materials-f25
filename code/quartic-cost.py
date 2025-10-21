@@ -104,68 +104,128 @@ def compute_solution(noisy=True):
     
     return S, P, U_optimal, Obj_values, fstring
 
+
 # Compute solutions for both cases
 S, P, U_noisy, Obj_noisy, fstring_noisy = compute_solution(noisy=True)
 _, _, U_clean, Obj_clean, fstring_clean = compute_solution(noisy=False)
 
-# Create side-by-side plots for optimal u
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(18, 7))
+# Choose 5 p values to plot
+p_plot_values = [0.3, 0.8, 1.3, 1.8, 2.3]
+# Get the grid values
+s_values = S[0, :]
+p_values = P[:, 0]
 
-im1 = ax1.contourf(S, P, U_noisy, levels=50, cmap='viridis')
-ax1.set_title('Optimal u (Multiplicative Noise)\n' + fstring_noisy, fontsize=10)
+# Extract line data for specific p values from the grid
+colors = plt.cm.viridis(np.linspace(0.2, 0.9, len(p_plot_values)))
+
+# Create side-by-side line plots for optimal u
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
+
+for i, p_val in enumerate(p_plot_values):
+    # Find the index of the closest p value in the grid
+    p_idx = np.argmin(np.abs(p_values - p_val))
+    
+    # Extract the slice for this p value
+    U_noisy_slice = U_noisy[p_idx, :]
+    ax1.plot(s_values, U_noisy_slice, label=f'p = {p_val}', color=colors[i], linewidth=2)
+
+ax1.set_title('Optimal u (Multiplicative Noise)', fontsize=14)
 ax1.set_xlabel('ŝ', fontsize=12)
-ax1.set_ylabel('p', fontsize=12)
-cbar1 = plt.colorbar(im1, ax=ax1)
-cbar1.set_label('u (optimal)', fontsize=12)
+ax1.set_ylabel('u (optimal)', fontsize=12)
+ax1.legend(loc='best')
+ax1.grid(True, alpha=0.3)
 
-im2 = ax2.contourf(S, P, U_clean, levels=50, cmap='viridis')
-ax2.set_title('Optimal u (Additive Noise)\n' + fstring_clean, fontsize=10)
+for i, p_val in enumerate(p_plot_values):
+    # Find the index of the closest p value in the grid
+    p_idx = np.argmin(np.abs(p_values - p_val))
+    
+    # Extract the slice for this p value
+    U_clean_slice = U_clean[p_idx, :]
+    ax2.plot(s_values, U_clean_slice, label=f'p = {p_val}', color=colors[i], linewidth=2)
+
+ax2.set_title('Optimal u (Additive Noise)', fontsize=14)
 ax2.set_xlabel('ŝ', fontsize=12)
-ax2.set_ylabel('p', fontsize=12)
-cbar2 = plt.colorbar(im2, ax=ax2)
-cbar2.set_label('u (optimal)', fontsize=12)
+ax2.set_ylabel('u (optimal)', fontsize=12)
+ax2.legend(loc='best')
+ax2.grid(True, alpha=0.3)
 
 plt.tight_layout()
 plt.show()
 
-# Create side-by-side plots for objective function values
-fig2, (ax3, ax4) = plt.subplots(1, 2, figsize=(18, 7))
+# Create side-by-side line plots for objective function values
+fig2, (ax3, ax4) = plt.subplots(1, 2, figsize=(16, 6))
 
-im3 = ax3.contourf(S, P, Obj_noisy, levels=50, cmap='plasma')
-ax3.set_title('Minimum J(u) (Mult)', fontsize=12)
+for i, p_val in enumerate(p_plot_values):
+    # Find the index of the closest p value in the grid
+    p_idx = np.argmin(np.abs(p_values - p_val))
+    
+    # Extract the slice for this p value
+    Obj_noisy_slice = Obj_noisy[p_idx, :]
+    ax3.plot(s_values, Obj_noisy_slice, label=f'p = {p_val}', color=colors[i], linewidth=2)
+
+ax3.set_title('Minimum J(u) (Multiplicative Noise)', fontsize=14)
 ax3.set_xlabel('ŝ', fontsize=12)
-ax3.set_ylabel('p', fontsize=12)
-cbar3 = plt.colorbar(im3, ax=ax3)
-cbar3.set_label('J(u) (minimum)', fontsize=12)
+ax3.set_ylabel('J(u) (minimum)', fontsize=12)
+ax3.legend(loc='best')
+ax3.grid(True, alpha=0.3)
 
-im4 = ax4.contourf(S, P, Obj_clean, levels=50, cmap='plasma')
-ax4.set_title('Minimum J(u) (Add)', fontsize=12)
+for i, p_val in enumerate(p_plot_values):
+    # Find the index of the closest p value in the grid
+    p_idx = np.argmin(np.abs(p_values - p_val))
+    
+    # Extract the slice for this p value
+    Obj_clean_slice = Obj_clean[p_idx, :]
+    ax4.plot(s_values, Obj_clean_slice, label=f'p = {p_val}', color=colors[i], linewidth=2)
+
+ax4.set_title('Minimum J(u) (Additive Noise)', fontsize=14)
 ax4.set_xlabel('ŝ', fontsize=12)
-ax4.set_ylabel('p', fontsize=12)
-cbar4 = plt.colorbar(im4, ax=ax4)
-cbar4.set_label('J(u) (minimum)', fontsize=12)
+ax4.set_ylabel('J(u) (minimum)', fontsize=12)
+ax4.legend(loc='best')
+ax4.grid(True, alpha=0.3)
 
 plt.tight_layout()
 plt.show()
 
-# Optional: Plot the difference between noisy and clean
-fig3, (ax5, ax6) = plt.subplots(1, 2, figsize=(18, 7))
+# Create overlay comparison plot
+fig3, (ax5, ax6) = plt.subplots(1, 2, figsize=(16, 6))
 
-diff_u = U_noisy - U_clean
-im5 = ax5.contourf(S, P, diff_u, levels=50, cmap='RdBu_r')
-ax5.set_title('Difference in Optimal u (Mult - Add)', fontsize=12)
+for i, p_val in enumerate(p_plot_values):
+    # Find the index of the closest p value in the grid
+    p_idx = np.argmin(np.abs(p_values - p_val))
+    
+    # Extract the slices for this p value
+    U_noisy_slice = U_noisy[p_idx, :]
+    U_clean_slice = U_clean[p_idx, :]
+    
+    ax5.plot(s_values, U_noisy_slice, label=f'p = {p_val} (noisy)', 
+             color=colors[i], linewidth=2, linestyle='-')
+    ax5.plot(s_values, U_clean_slice, color=colors[i], linewidth=2, 
+             linestyle='--', alpha=0.7)
+
+ax5.set_title('Optimal u: Multiplicative (solid) vs Additive (dashed)', fontsize=14)
 ax5.set_xlabel('ŝ', fontsize=12)
-ax5.set_ylabel('p', fontsize=12)
-cbar5 = plt.colorbar(im5, ax=ax5)
-cbar5.set_label('Δu', fontsize=12)
+ax5.set_ylabel('u (optimal)', fontsize=12)
+ax5.legend(loc='best')
+ax5.grid(True, alpha=0.3)
 
-diff_obj = Obj_noisy - Obj_clean
-im6 = ax6.contourf(S, P, diff_obj, levels=50, cmap='RdBu_r')
-ax6.set_title('Difference in Minimum J(u) (Mult - Add)', fontsize=12)
+for i, p_val in enumerate(p_plot_values):
+    # Find the index of the closest p value in the grid
+    p_idx = np.argmin(np.abs(p_values - p_val))
+    
+    # Extract the slices for this p value
+    Obj_noisy_slice = Obj_noisy[p_idx, :]
+    Obj_clean_slice = Obj_clean[p_idx, :]
+    
+    ax6.plot(s_values, Obj_noisy_slice, label=f'p = {p_val} (noisy)', 
+             color=colors[i], linewidth=2, linestyle='-')
+    ax6.plot(s_values, Obj_clean_slice, color=colors[i], linewidth=2, 
+             linestyle='--', alpha=0.7)
+
+ax6.set_title('Minimum J(u): Noisy (Multiplicative) vs Clean (Additive)', fontsize=14)
 ax6.set_xlabel('ŝ', fontsize=12)
-ax6.set_ylabel('p', fontsize=12)
-cbar6 = plt.colorbar(im6, ax=ax6)
-cbar6.set_label('ΔJ(u)', fontsize=12)
+ax6.set_ylabel('J(u) (minimum)', fontsize=12)
+ax6.legend(loc='best')
+ax6.grid(True, alpha=0.3)
 
 plt.tight_layout()
 plt.show()
