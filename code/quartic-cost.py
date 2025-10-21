@@ -6,6 +6,7 @@ def derive_cubic_symbolic(noisy=True):
     """
     Derive the cubic equation symbolically once.
     Returns symbolic coefficients as functions of s_hat and p.
+    Credit to Kelly Jiang for converting this to sympy!
     """
     s_hat, p, u = symbols('s_hat p u')
     if noisy:
