@@ -21,15 +21,15 @@
 | 10/16 | 15 | Lecture | Adaptive Control ([slides](https://slides.com/sarahdean-2/15-adaptive-control-ml-in-feedback-sys-f25), [recording](https://vod.video.cornell.edu/media/+Lecture+15%3A+Adaptive+Control+%28ML+In+Feedback+Sys+F25%29+/1_2isxfefm)) |
 | 10/21 | 16 | Lecture | Policy Optimization ([slides](https://slides.com/sarahdean-2/16-policy-opt-ml-in-feedback-sys-f25)) |
 | 10/23 | 17 | Guest Lecture | Off-Policy Evaluation and Learning |
-| 10/28 | 18 | Paper Presentations |  |
-| 10/30 | 19 | Paper Presentations |  |
-| 11/04 | 20 | Paper Presentations |  |
-| 11/06 | 21 | Paper Presentations |  |
-| 11/11 | 22 | Paper Presentations |  |
-| 11/13 | 23 | Paper Presentations |  |
-| 11/18 | 24 | Paper Presentations |  |
-| 11/20 | 25 | Paper Presentations |  |
-| 11/25 | 26 | Paper Presentations |  |
+| 10/28 | 18 | Paper Presentations | [2410.23916] Transformer-based Model Predictive Control: Trajectory Optimization via Sequence Modeling <br> [2410.05364] Diffusion Model Predictive Control |
+| 10/30 | 19 | Paper Presentations | [2402.01032] Repeat After Me: Transformers are Better than State Space Models at Copying<br>[2402.18668] Simple linear attention language models balance the recall-throughput tradeoff |
+| 11/04 | 20 | Paper Presentations | [2106.01345] Decision Transformer: Reinforcement Learning via Sequence Modeling<br>[2508.11990] Universal Learning of Nonlinear Dynamics |
+| 11/06 | 21 | Paper Presentations | [2210.09206] Model Predictive Control via On-Policy Imitation Learning<br>[2402.00795] LLMs learn governing principles of dynamical systems, revealing an in-context neural scaling law |
+| 11/11 | 22 | Paper Presentations | [2302.14753] Learning Hidden Markov Models Using Conditional Samples<br>[2402.11450] Learning to Learn Faster from Human Feedback with Language Model Predictive Control |
+| 11/13 | 23 | Paper Presentations | [2402.03110] Non-Stationary Latent Auto-Regressive Bandits<br>[2402.11004] The Evolution of Statistical Induction Heads: In-Context Learning Markov Chains |
+| 11/18 | 24 | Paper Presentations | [2503.09722] The Pitfalls of Imitation Learning when Actions are Continuous<br>[2107.10878] Bagging, optimized dynamic mode decomposition (BOP-DMD) for robust, stable forecasting with spatial and temporal uncertainty-quantification |
+| 11/20 | 25 | Paper Presentations | [2306.00297] Transformers learn to implement preconditioned gradient descent for in-context learning<br>[2503.15095] Diffusion-Based Forecasting for Uncertainty-Aware Model Predictive Control |
+| 11/25 | 26 | Paper Presentations | [2204.02322] On Global and Local Convergence of Iterative Linear Quadratic Optimization Algorithms for Discrete Time Nonlinear Control<br>[2508.07208] What One Cannot, Two Can: Two-Layer Transformers Provably Represent Induction Heads on Any-Order Markov Chains |
 | 11/27 |  |  | No class: Thanksgiving |
-| 12/02 | 27 | Paper Presentations |  |
-| 12/04 | 28 | Paper Presentations |  |
+| 12/02 | 27 | Paper Presentations | [2410.01201] Were RNNs All We Needed?<br>[2111.02080] An Explanation of In-context Learning as Implicit Bayesian Inference |
+| 12/04 | 28 | Paper Presentations | [2401.14534] Meta-Learning Linear Quadratic Regulators: A Policy Gradient MAML Approach for Model-free LQR<br>[2502.12465] Computational-Statistical Tradeoffs at the Next-Token Prediction Barrier: Autoregressive and Imitation Learning under Misspecification |
