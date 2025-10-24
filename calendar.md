@@ -20,7 +20,7 @@
 | 10/14 |  |  | No class: Fall break |
 | 10/16 | 15 | Lecture | Adaptive Control ([slides](https://slides.com/sarahdean-2/15-adaptive-control-ml-in-feedback-sys-f25), [recording](https://vod.video.cornell.edu/media/+Lecture+15%3A+Adaptive+Control+%28ML+In+Feedback+Sys+F25%29+/1_2isxfefm)) |
 | 10/21 | 16 | Lecture | Policy Optimization ([slides](https://slides.com/sarahdean-2/16-policy-opt-ml-in-feedback-sys-f25), [recording](https://vod.video.cornell.edu/media/Lecture+16%3A+Policy+Optimization+%28ML+In+Feedback+Sys+F25%29+/1_kvit2fc3)) |
-| 10/23 | 17 | Guest Lecture | Off-Policy Evaluation and Learning |
+| 10/23 | 17 | Guest Lecture | Off-Policy Evaluation and Learning ([slides](https://speakerdeck.com/harukakiyohara_/guest-lecture-cornell-opl), [recording](https://vod.video.cornell.edu/media/Guest+Lecture%3A+Off-Policy+Evaluation+and+Learning+%28ML+In+Feedback+Sys+F25%29+/1_eyiazrlc)) |
 | 10/28 | 18 | Paper Presentations | [2410.23916] Transformer-based Model Predictive Control: Trajectory Optimization via Sequence Modeling <br> [2410.05364] Diffusion Model Predictive Control |
 | 10/30 | 19 | Paper Presentations | [2402.01032] Repeat After Me: Transformers are Better than State Space Models at Copying<br>[2402.18668] Simple linear attention language models balance the recall-throughput tradeoff |
 | 11/04 | 20 | Paper Presentations | [2106.01345] Decision Transformer: Reinforcement Learning via Sequence Modeling<br>[2508.11990] Universal Learning of Nonlinear Dynamics |
